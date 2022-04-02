@@ -1,12 +1,17 @@
-function x() {
-    var a=10;
+function z() {
+    var b=900;
+  function x() {
+    var a = 10;
     function y() {
-        console.log(a);
+      console.log(a,b);
     }
-    a=100;
-    return y;
+    y();
+  }
+  x();
+//   var z = x();
+//   console.log(z);
+
+  //! closure is a funtion bundled together with its lexical env (surrounding state)
 }
-var z=x(); 
-console.log(z);
+
 z();
-//! closure is a funtion bundled together with its lexical env (surrounding state)
