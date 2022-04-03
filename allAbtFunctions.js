@@ -1,11 +1,11 @@
-//*function stmnt
+//*function stmnt aka function declaration
 a();
 function a() {
   console.log("a called");
 }
 
 
-//! the diffrence b/w functio  n stmnt and exp is hoisting
+//! the diffrence b/w function stmnt and exp is hoisting
 
 
 //*fucntion exp
@@ -15,11 +15,10 @@ var b = function () {
   console.log("b called");
 };
 
-
-
-//*function decleration
-
 //*anonymous funtion
+function  xc() {
+
+}
 
 //*names function exp
 
