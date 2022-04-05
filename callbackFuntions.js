@@ -18,3 +18,4 @@ function attach() {
   });
 }
 attach();
+//! event listener are heavy(memory wise)
